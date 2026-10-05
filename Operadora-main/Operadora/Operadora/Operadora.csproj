@@ -95,5 +95,8 @@
   <ItemGroup>
     <None Include="Resources\claro.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anatel.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
