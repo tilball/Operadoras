@@ -157,7 +157,6 @@
             this.txt_nome.Name = "txt_nome";
             this.txt_nome.Size = new System.Drawing.Size(272, 20);
             this.txt_nome.TabIndex = 3;
-            this.txt_nome.TextChanged += new System.EventHandler(this.txt_nome_TextChanged);
             // 
             // lbl_Nome
             // 
@@ -169,7 +168,6 @@
             this.lbl_Nome.Size = new System.Drawing.Size(45, 15);
             this.lbl_Nome.TabIndex = 4;
             this.lbl_Nome.Text = "Nome";
-            this.lbl_Nome.Click += new System.EventHandler(this.lbl_Nome_Click);
             // 
             // lbl_OperadoraSelecionada
             // 
@@ -252,7 +250,7 @@
             this.btn_RS1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS1.Enabled = false;
             this.btn_RS1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_RS1.FlatAppearance.BorderSize = 5;
             this.btn_RS1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS1.Location = new System.Drawing.Point(365, 283);
             this.btn_RS1.Name = "btn_RS1";
@@ -260,14 +258,11 @@
             this.btn_RS1.TabIndex = 13;
             this.btn_RS1.Text = "R$";
             this.btn_RS1.UseVisualStyleBackColor = true;
-            this.btn_RS1.Click += new System.EventHandler(this.btn_RS1_Click);
             // 
             // btn_RS2
             // 
             this.btn_RS2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS2.Enabled = false;
-            this.btn_RS2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RS2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS2.Location = new System.Drawing.Point(464, 283);
             this.btn_RS2.Name = "btn_RS2";
@@ -275,14 +270,11 @@
             this.btn_RS2.TabIndex = 14;
             this.btn_RS2.Text = "R$";
             this.btn_RS2.UseVisualStyleBackColor = true;
-            this.btn_RS2.Click += new System.EventHandler(this.btn_RS2_Click);
             // 
             // btn_RS3
             // 
             this.btn_RS3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS3.Enabled = false;
-            this.btn_RS3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RS3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS3.Location = new System.Drawing.Point(562, 283);
             this.btn_RS3.Name = "btn_RS3";
@@ -290,16 +282,13 @@
             this.btn_RS3.TabIndex = 15;
             this.btn_RS3.Text = "R$";
             this.btn_RS3.UseVisualStyleBackColor = true;
-            this.btn_RS3.Click += new System.EventHandler(this.btn_RS3_Click);
             // 
             // btn_RS4
             // 
             this.btn_RS4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS4.Enabled = false;
-            this.btn_RS4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btn_RS4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btn_RS4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btn_RS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RS4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS4.Location = new System.Drawing.Point(658, 283);
             this.btn_RS4.Name = "btn_RS4";
@@ -307,7 +296,6 @@
             this.btn_RS4.TabIndex = 16;
             this.btn_RS4.Text = "R$";
             this.btn_RS4.UseVisualStyleBackColor = true;
-            this.btn_RS4.Click += new System.EventHandler(this.btn_RS4_Click);
             // 
             // lbl_Validade1
             // 
@@ -369,7 +357,7 @@
             this.btn_RS5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS5.Enabled = false;
             this.btn_RS5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_RS5.FlatAppearance.BorderSize = 5;
             this.btn_RS5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS5.Location = new System.Drawing.Point(365, 382);
             this.btn_RS5.Name = "btn_RS5";
@@ -377,7 +365,6 @@
             this.btn_RS5.TabIndex = 21;
             this.btn_RS5.Text = "R$";
             this.btn_RS5.UseVisualStyleBackColor = true;
-            this.btn_RS5.Click += new System.EventHandler(this.btn_RS5_Click);
             // 
             // lbl_Validade6
             // 
@@ -395,7 +382,7 @@
             this.btn_RS6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS6.Enabled = false;
             this.btn_RS6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_RS6.FlatAppearance.BorderSize = 5;
             this.btn_RS6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS6.Location = new System.Drawing.Point(464, 382);
             this.btn_RS6.Name = "btn_RS6";
@@ -403,7 +390,6 @@
             this.btn_RS6.TabIndex = 23;
             this.btn_RS6.Text = "R$";
             this.btn_RS6.UseVisualStyleBackColor = true;
-            this.btn_RS6.Click += new System.EventHandler(this.btn_RS6_Click);
             // 
             // lbl_Validade7
             // 
@@ -421,7 +407,7 @@
             this.btn_RS7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS7.Enabled = false;
             this.btn_RS7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_RS7.FlatAppearance.BorderSize = 5;
             this.btn_RS7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS7.Location = new System.Drawing.Point(562, 382);
             this.btn_RS7.Name = "btn_RS7";
@@ -429,7 +415,6 @@
             this.btn_RS7.TabIndex = 25;
             this.btn_RS7.Text = "R$";
             this.btn_RS7.UseVisualStyleBackColor = true;
-            this.btn_RS7.Click += new System.EventHandler(this.btn_RS7_Click);
             // 
             // lbl_Validade8
             // 
@@ -447,7 +432,7 @@
             this.btn_RS8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_RS8.Enabled = false;
             this.btn_RS8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btn_RS8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_RS8.FlatAppearance.BorderSize = 5;
             this.btn_RS8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RS8.Location = new System.Drawing.Point(658, 382);
             this.btn_RS8.Name = "btn_RS8";
@@ -455,7 +440,6 @@
             this.btn_RS8.TabIndex = 27;
             this.btn_RS8.Text = "R$";
             this.btn_RS8.UseVisualStyleBackColor = true;
-            this.btn_RS8.Click += new System.EventHandler(this.btn_RS8_Click);
             // 
             // lbl_SelecioneValor
             // 
@@ -471,7 +455,7 @@
             // pic_Logo
             // 
             this.pic_Logo.BackColor = System.Drawing.Color.Transparent;
-            this.pic_Logo.Image = global::Operadora.Properties.Resources.anatel;
+            this.pic_Logo.Image = global::Operadora.Properties.Resources.R;
             this.pic_Logo.Location = new System.Drawing.Point(19, 296);
             this.pic_Logo.Name = "pic_Logo";
             this.pic_Logo.Size = new System.Drawing.Size(323, 175);
@@ -518,7 +502,7 @@
             this.Controls.Add(this.grp_operadoras);
             this.Controls.Add(this.label1);
             this.Name = "frm_principal";
-            this.Text = "Recarga para Celular";
+            this.Text = "Regarga para Celular";
             this.grp_operadoras.ResumeLayout(false);
             this.grp_operadoras.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Logo)).EndInit();

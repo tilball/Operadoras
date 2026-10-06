@@ -19,22 +19,6 @@ namespace Operadora
 
         private void btn_Vivo_CheckedChanged(object sender, EventArgs e)
         {
-            btn_RS1.ForeColor = Color.Violet;
-            btn_RS1.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS2.ForeColor = Color.Violet;
-            btn_RS2.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS3.ForeColor = Color.Violet;
-            btn_RS3.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS4.ForeColor = Color.Violet;
-            btn_RS4.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS5.ForeColor = Color.Violet;
-            btn_RS5.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS6.ForeColor = Color.Violet;
-            btn_RS6.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS7.ForeColor = Color.Violet;
-            btn_RS7.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS8.ForeColor = Color.Violet;
-            btn_RS8.FlatAppearance.MouseOverBackColor = Color.White;
             //Muda a cor do fundo
             BackColor = Color.DarkViolet;
             //Escreva o nome vivo
@@ -95,8 +79,6 @@ namespace Operadora
 
             btn_RS8.Text = "200 reais";
             lbl_Validade8.Text = "365 dias";
-
-
         }
 
         private void pcb_image_Click(object sender, EventArgs e)
@@ -171,44 +153,10 @@ namespace Operadora
 
             btn_RS8.Text = "50 reais";
             lbl_Validade8.Text = "90 dias";
-
-            btn_RS1.ForeColor = Color.Gold;
-            btn_RS1.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS2.ForeColor = Color.Gold;
-            btn_RS2.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS3.ForeColor = Color.Gold;
-            btn_RS3.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS4.ForeColor = Color.Gold;
-            btn_RS4 .FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS5.ForeColor = Color.Gold;
-            btn_RS5.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS6.ForeColor = Color.Gold;
-            btn_RS6.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS7.ForeColor = Color.Gold;
-            btn_RS7.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS8.ForeColor = Color.Gold;
-            btn_RS8.FlatAppearance.MouseOverBackColor = Color.White;
-
         }
 
         private void btn_Claro_CheckedChanged(object sender, EventArgs e)
         {
-            btn_RS1.ForeColor = Color.Black;
-            btn_RS1.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS2.ForeColor = Color.Black;
-            btn_RS2.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS3.ForeColor = Color.Black;
-            btn_RS3.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS4.ForeColor = Color.Black;
-            btn_RS4.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS5.ForeColor = Color.Black;
-            btn_RS5.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS6.ForeColor = Color.Black;
-            btn_RS6.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS7.ForeColor = Color.Black;
-            btn_RS7.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS8.ForeColor = Color.Black;
-            btn_RS8.FlatAppearance.MouseOverBackColor = Color.White;
             //Formatação cores
             BackColor = Color.Red;
             //Escreva o nome vivo
@@ -273,22 +221,7 @@ namespace Operadora
 
         private void btn_Tim_CheckedChanged(object sender, EventArgs e)
         {
-            btn_RS1.ForeColor = Color.RoyalBlue;
-            btn_RS1.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS2.ForeColor = Color.RoyalBlue;
-            btn_RS2.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS3.ForeColor = Color.RoyalBlue;
-            btn_RS3.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS4.ForeColor = Color.RoyalBlue;
-            btn_RS4.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS5.ForeColor = Color.RoyalBlue;
-            btn_RS5.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS6.ForeColor = Color.RoyalBlue;
-            btn_RS6.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS7.ForeColor = Color.RoyalBlue;
-            btn_RS7.FlatAppearance.MouseOverBackColor = Color.White;
-            btn_RS8.ForeColor = Color.RoyalBlue;
-            btn_RS8.FlatAppearance.MouseOverBackColor = Color.White;//Formatação cores
+            //Formatação cores
             BackColor = Color.Blue;
             //Escreva o nome vivo
             txt_OperadoraSelecionada.Text = Rad_Tim.Text;
@@ -351,58 +284,6 @@ namespace Operadora
         }
 
         private void pic_Logo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_RS1_Click(object sender, EventArgs e)
-        {
-            txt_ValorRecarga.Text = btn_RS1.Text;
-            
-
-        }
-
-        private void btn_RS2_Click(object sender, EventArgs e)
-        {
-            txt_ValorRecarga.Text = btn_RS2.Text;
-        }
-
-        private void btn_RS3_Click(object sender, EventArgs e)
-        {
-            txt_ValorRecarga.Text = btn_RS3.Text;
-        }
-
-        private void btn_RS4_Click(object sender, EventArgs e)
-        {
-            txt_ValorRecarga.Text = btn_RS4.Text;
-        }
-
-        private void btn_RS5_Click(object sender, EventArgs e)
-        {
-            txt_ValorRecarga.Text = btn_RS5.Text;
-        }
-
-        private void btn_RS6_Click(object sender, EventArgs e)
-        {
-            txt_ValorRecarga.Text = btn_RS6.Text;
-        }
-
-        private void btn_RS7_Click(object sender, EventArgs e)
-        {
-            txt_ValorRecarga.Text = btn_RS7.Text;
-        }
-
-        private void btn_RS8_Click(object sender, EventArgs e)
-        {
-            txt_ValorRecarga.Text = btn_RS8.Text;
-        }
-
-        private void txt_nome_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbl_Nome_Click(object sender, EventArgs e)
         {
 
         }

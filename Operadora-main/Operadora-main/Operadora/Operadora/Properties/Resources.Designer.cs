@@ -83,16 +83,6 @@ namespace Operadora.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap anatel {
-            get {
-                object obj = ResourceManager.GetObject("anatel", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap claro {
             get {
                 object obj = ResourceManager.GetObject("claro", resourceCulture);
